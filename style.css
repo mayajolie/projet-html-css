@@ -1,0 +1,176 @@
+#page{
+    border: solid rgb(245, 9, 9) 2px; 
+    margin-left: 200px;
+    margin-right: 200px;   
+}
+#logo
+{
+    width:880px;
+    border: 1px;
+    margin: 1px;
+}
+
+#logo img{
+ height: 100px;
+ width: 200px;
+}
+#menu1{
+    width: 100%;
+    background-color: red;
+}
+#menu1 ul{
+    padding: 0px;
+    margin: 0px;
+    background-color: skyblue;
+    line-height: 30px;
+}
+#menu1 li{
+display: inline-block;
+border-right: solid rgb(106, 110, 106) 1px;
+width: 24%;
+height: 50px;
+text-align: center;
+
+}
+#menu1 a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+#menu1 ul ul li a{
+    color:#000;
+    text-align: center;
+    /*border: 1px solid #fff;*/
+    
+}
+/*#menu1 ul li:hover li {
+    visibility: hidden;
+
+}*/
+#menu1 ul ul{
+       
+        text-align: center;
+        font-size: 18px;
+        visibility: hidden;
+        position: absolute;
+        top: 150px;
+        height: 25%;
+        
+        
+}
+#menu1 ul ul li{
+    position: relative;
+    top: 2px;
+    text-align: center;
+    width: 130%;
+    display: block;
+    text-decoration: none;
+    border-bottom: rgb(2, 2, 2);
+    background-color:skyblue;
+    height: 25%;
+
+}
+#menu1 ul li:hover li{
+    visibility: visible;
+    float: left;
+}
+
+#menu1 ul li a:hover{
+    background-color: rgb(228, 93, 15);
+}
+    
+ }
+#menu2  {
+
+height: 320px;
+text-align: center;
+background-color: white;
+}
+#bloc1,#sou-bloc {
+    
+    height: 300px;
+    width: 48%;
+    display: inline-block; 
+    vertical-align:top;
+    margin-top: 10px;
+}
+    
+#bloc1{
+margin-right: 5px;
+border: dashed rgb(14, 13, 13) 2px;
+border-radius: 20px / 10px;
+}
+
+
+#bloc2 ,#bloc3{
+    border:solid rgb(2, 2, 2) 2px;
+    height: 145px;
+    width: 100%;
+    background-color: blue;
+    border-radius: 20px 10px 20px 10px;
+}
+#bloc3 {
+    margin-top: 7px;
+
+}
+#menu3 {
+   
+    height: 100px;
+    margin-top: 1px;
+    background-color: white;
+    margin-left: 1px;
+    margin-right: 2px;
+    margin-block-end: 2px;
+
+}
+  #fin1,#fin2,#fin3{
+      border: solid rgb(7, 7, 7) 1.5px;
+      height: 90px;
+      width: 32%;
+      display: inline-block;
+      margin-left: 5px;
+      margin-top: 5px;
+      background-color: red ;
+      
+  }
+p{
+    text-align: center;
+    border: dotted;
+    font-style: oblique ;
+    font-size: 50px;
+    height: 100px;
+    background: tomato;
+}
+@media only screen and (max-width: 786px) {
+    body {
+      background-color: lightblue;
+      width: 100%;
+    }
+  }
+ @media only screen and (max-width: 768px) {
+    
+    /* For mobile phones: */
+    #menu1 li
+    {
+      width: 100%;
+      border-left: none;
+      border-right: none;
+      margin-left: 0px;
+      margin-right: 0px
+    }
+    
+  }
+  @media only screen and (max-width: 1000px) {
+    #menu3 {
+        display: none;
+    }
+    #bloc1,#sou-bloc 
+    {
+      width: 100%;
+      border-left: none;
+      border-right: none;
+      margin-left: 0px;
+      margin-right: 0px
+    }
+  }
